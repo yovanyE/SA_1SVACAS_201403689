@@ -3,7 +3,7 @@
 
 Este proyecto implementa la descomposición de un sistema monolítico de compras en línea hacia una arquitectura basada en **microservicios**, utilizando tecnologías modernas como **Docker**, **Kafka**, y bases de datos independientes por servicio.
 
-## 📦 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```bash
 .
@@ -22,7 +22,7 @@ Este proyecto implementa la descomposición de un sistema monolítico de compras
 └── README.md
 ```
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - Docker & Docker Compose  
 - Apache Kafka  
@@ -31,13 +31,13 @@ Este proyecto implementa la descomposición de un sistema monolítico de compras
 - HTTP REST entre servicios  
 - Comunicación asincrónica con Kafka  
 
-## 📥 Requisitos
+## Requisitos
 
 - Docker (v20+)  
 - Docker Compose (v1.29+ o v2)  
 - Git  
 
-## ⚙️ Instrucciones de Despliegue
+## Instrucciones de Despliegue
 
 1. Clona este repositorio
 
@@ -73,7 +73,8 @@ docker-compose up --build
 Para Informe consultar el archivo [informe.md](./informe.md) para más detalles sobre:
 
 - Justificación del rediseño  
+- Descripción de los servicios
 - Diagrama de arquitectura  
-- Funcionalidades de cada microservicio  
-- Lecciones aprendidas  
+- Lecciones aprendidas  y desafios enfrentados
+- Docker compose
 
